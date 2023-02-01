@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nnjaka/NodeJS.git"
+  },
+  "type": "module",
+  "bin": {
+    "reader": "./lesson4/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nnjaka/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Nnjaka/NodeJS#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^9.1.4",
+    "yargs": "^17.6.2"
+  }
+}
